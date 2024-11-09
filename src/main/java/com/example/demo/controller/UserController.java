@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/v1")
 public class UserController {
 
-    // GET 방식으로 사번을 반환하는 APIss
+    // GET 방식으로 사번을 반환하는 APIssss
     @GetMapping("/user")
     public String getUserId() {
         // employeeId를 경로에서 추출해 사번을 리턴
